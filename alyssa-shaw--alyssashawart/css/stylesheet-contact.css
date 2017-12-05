@@ -34,13 +34,12 @@ body{
    }
 header{
    height:700px;
-   background-color: #222;
-   opacity: .37;
+   background-color: #aeaeae;
 }
 header img{
    position: absolute;
-   left: 0px;
-   height: 200px;
+   left: 100px;
+   height: 700px;
 }
 h1{
    padding-top: 100px;
