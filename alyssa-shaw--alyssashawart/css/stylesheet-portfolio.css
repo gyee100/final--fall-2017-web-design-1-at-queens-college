@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Roboto Mono'; monospace;
+    font-style: normal;
+    font-weight: 700;
+    src: local('RobotoMono Bold'), local('RobotoMono-Bold'), url(../fonts/RobotoMono-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Mono'; monospace;
+    font-style: lighter;
+    font-weight: 300;
+    src: local('RobotoMono Light'), local('RobotoMono-Light'), url(../fonts/RobotoMono-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Mono'; monospace;
+    font-style: normal;
+    font-weight: 400;
+    src: local('RobotoMono Regular'), local('RobotoMono-Regular'), url(../fonts/RobotoMono-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Anton'; sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Anton Regular'), local('Anton-Regular'), url(../fonts/Anton-Regular.ttf) format('truetype');
+}
+   body{
+      background-color:white;
+      color: #222;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 12px;
+      font-weight: normal;
+      text-align: center;
+      margin-top: 50px;
+   }
+h1{
+   position:relative;
+   opacity: .25;
+   color: #222;
+   font-family: 'Anton', sans-serif;
+   font-size:72px;
+   font-weight: normal;
+}
+h2{
+   position:absolute;
+   top:220px;
+   left:550px;
+   color: #222;
+   font-family: 'Roboto Mono', monospace;
+   font-weight: 300;
+   font-size:34px;
+   font-weight: 100;
+   letter-spacing: 6px;
+}
+nav{
+   position: absolute;
+   right: 0px;
+   text-align: right;
+}
+nav ul li{
+   padding-top: 10px;
+   font-family: 'Anton',sans-serif;
+   font-size: 24px;
+   color: #dbdbdb;
+   letter-spacing: 3px;
+}
