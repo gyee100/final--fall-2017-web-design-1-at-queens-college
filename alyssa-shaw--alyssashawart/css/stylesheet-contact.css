@@ -24,7 +24,7 @@
 }
 body{
       background-color:white;
-      color: #ffffff;
+      color: #222
       font-family: 'Roboto Mono', monospace;
       font-size: 14px;
       font-weight:300;
@@ -33,7 +33,9 @@ body{
       margin-top: 25px;
    }
 header{
-   height:250px;
+   height:700px;
+   background-color: #222;
+   opacity: .37;
 }
 header img{
    position: absolute;
@@ -79,6 +81,7 @@ section img{
    height:700px;
 }
 section p{
+   display: inline-block;
    width:280px;
    font-family: 'Roboto Mono', monospace;;
    font-size: 14px;
