@@ -1,0 +1,23 @@
+   body{
+      background-color:white;
+      color: #222;
+
+      font-family: 'Roboto Mono', monospace;
+      font-size: 12px;
+      font-weight: normal;
+   }
+h1{
+   opacity: .25;
+   color: #222;
+
+   font-family: 'Anton', sans-serif;
+   font-size:219px;
+   font-weight: normal;
+   margin: 30px
+
+}
+h2{   color: #222;
+   font-family: 'Roboto Mono', monospace;
+   font-size:34px;
+   font-weight: 300;
+}
