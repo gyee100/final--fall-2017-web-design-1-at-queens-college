@@ -29,6 +29,7 @@
       font-size: 12px;
       font-weight: normal;
       text-align: center;
+      margin-top: 50px;
    }
 h1{
    position:relative;
@@ -37,11 +38,10 @@ h1{
    font-family: 'Anton', sans-serif;
    font-size:219px;
    font-weight: normal;
-   margin: 30px
 }
 h2{
    position:absolute;
-   top:200px;
+   top:220px;
    left:550px;
    color: #222;
    font-family: 'Roboto Mono', monospace;
@@ -49,4 +49,16 @@ h2{
    font-size:34px;
    font-weight: 100;
    letter-spacing: 6px;
+}
+nav{
+   position: absolute;
+   right: 0px;
+   text-align: right;
+}
+nav ul li{
+   padding-top: 10px;
+   font-family: 'Anton',sans-serif;
+   font-size: 24px;
+   color: #dbdbdb;
+   letter-spacing: 3px;
 }
