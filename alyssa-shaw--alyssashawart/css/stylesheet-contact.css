@@ -30,16 +30,21 @@ body{
       font-weight:300;
       text-align: center;
       line-height: 16px;
-      margin-top: 25px;
+   }
+   .container{
+      width:1280px;
+      margin: auto;
+      position: relative;
    }
 header{
    height:700px;
    background-color: #aeaeae;
+   margin-top: 0px;
 }
 header img{
    position: absolute;
-   left: 100px;
    height: 700px;
+   left: 100px;
 }
 h1{
    position:relative;
@@ -86,15 +91,15 @@ section p{
 }
 section p:nth-of-type(1){
    position: absolute;
-   left: 480px;
+   left: 250px;
 }
 section p:nth-of-type(2){
    position: absolute;
-   left: 800px;
+   left: 570px;
 }
 section p:nth-of-type(3){
    position: absolute;
-   left: 1120px;
+   left: 810px;
 }
 footer{
    padding-top: 195px;
