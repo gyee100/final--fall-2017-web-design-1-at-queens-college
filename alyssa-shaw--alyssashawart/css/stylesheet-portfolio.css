@@ -69,3 +69,14 @@ nav ul li{
    color: #dbdbdb;
    letter-spacing: 3px;
 }
+#container{
+   width: 1000px;
+   margin: auto;
+}
+section img{
+   height: 500px;
+   max-width: 300px;
+}
+section p{
+   padding-bottom: 60px;
+}
