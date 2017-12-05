@@ -42,14 +42,13 @@ header img{
    height: 700px;
 }
 h1{
-   padding-top: 100px;
-   padding-bottom: 100px;
    position:relative;
    color: white;
    font-family: 'Anton', sans-serif;
    font-size:72px;
    font-weight: normal;
-   z-index: 2;
+   top:-35px;
+   left: -275px;
 }
 h2{
    position:absolute;
@@ -74,11 +73,6 @@ nav ul li{
    color: #dbdbdb;
    letter-spacing: 3px;
 }
-section img{
-   object-fit: cover;
-   width:1600px;
-   height:700px;
-}
 section p{
    display: inline-block;
    width:280px;
@@ -90,11 +84,18 @@ section p{
    letter-spacing: 1px;
    padding-bottom: 20px;
 }
-#one{
-   position: relative;
-}
-#two{
+section p:nth-of-type(1){
    position: absolute;
-   top: 100px;
-   left: 1320px;
+   left: 480px;
+}
+section p:nth-of-type(2){
+   position: absolute;
+   left: 800px;
+}
+section p:nth-of-type(3){
+   position: absolute;
+   left: 1120px;
+}
+footer{
+   padding-top: 195px;
 }
