@@ -16,6 +16,12 @@
     font-weight: 400;
     src: local('RobotoMono Regular'), local('RobotoMono-Regular'), url(../fonts/RobotoMono-Regular.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'Anton'; sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Anton Regular'), local('Anton-Regular'), url(../fonts/Anton-Regular.ttf) format('truetype');
+}
    body{
       background-color:white;
       color: #222;
