@@ -87,8 +87,8 @@ section p span{
 }
 @media screen and  (max-width:1279px){
    .container{
-      width:800px;
-      text-align: center;
+      width:600px;
+      margin: auto;
    }
    header{
       position: relative;
@@ -106,8 +106,18 @@ section p span{
       left:450px;
       top:5px;
    }
+   nav ul li{
+      padding-top: 10px;
+      font-family: 'Anton',sans-serif;
+      font-size: 14px;
+      color: #dbdbdb;
+      letter-spacing: 1px;
+   }
    #container{
       position: absolute;
       top:250px;
-      width: 600px;
+      left: 55px;
+      width: 500px;
+      text-align: center;
+      margin:auto;
    }

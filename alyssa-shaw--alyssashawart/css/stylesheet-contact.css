@@ -105,3 +105,42 @@ a {
 a:hover {
     color: #222;;
 }
+@media screen and  (max-width:1279px){
+   .container{
+      width:600px;
+      height: 800px;
+      margin: auto;
+   }
+   header{
+      height: 550px;
+   }
+   header img{
+      height: 500px;
+   }
+   h1{
+      position: absolute;
+      top:490px;
+      left: 50px;
+   }
+   section{
+      width: 600px;
+      height: 250px;
+   }
+   section p{
+      display: inline-block;
+      width:200px;
+      font-size: 12px;
+   }
+   section p:nth-of-type(1){
+      position: absolute;
+      left: 50px;
+   }
+   section p:nth-of-type(2){
+      position: absolute;
+      left: 250px;
+   }
+   section p:nth-of-type(3){
+      position: absolute;
+      left: 250px;
+      top: 580px;
+   }

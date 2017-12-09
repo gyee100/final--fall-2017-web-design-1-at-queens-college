@@ -83,14 +83,20 @@ a:hover {
 }
 @media screen and  (max-width:1279px){
    .container{
-      width:800px;
+      width:600px;
       text-align: center;
    }
    h1{
-      font-size:200px;
+      font-size:100px;
+   }
+   h2{
+      font-size: 17px;
+      position: absolute;
+      top:75px;
+      left:75px;
    }
    section img{
-      width: 800px;
+      width: 500px;
    }
    nav{
       position: absolute;

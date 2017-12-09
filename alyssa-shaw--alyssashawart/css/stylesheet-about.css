@@ -62,3 +62,19 @@ section p{
    top: 100px;
    left: 900px;
 }
+@media screen and  (max-width:1279px){
+   .container{
+      width:600px;
+      height: 800px;
+      margin: auto;
+   }
+   #one img{
+      width: 600px;
+      height: 550px;
+      object-position: 80% 50%;
+   }
+   #two{
+      position: absolute;
+      top: 120px;
+      left:325px;
+   }
