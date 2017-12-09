@@ -64,9 +64,9 @@ nav{
 nav ul li{
    padding-top: 10px;
    font-family: 'Anton',sans-serif;
-   font-size: 24px;
+   font-size: 14px;
    color: #dbdbdb;
-   letter-spacing: 3px;
+   letter-spacing: 1px;
 }
 footer{
    padding-top: 60px;
