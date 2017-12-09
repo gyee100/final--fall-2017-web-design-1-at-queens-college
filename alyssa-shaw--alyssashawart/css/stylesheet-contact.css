@@ -22,15 +22,6 @@
     font-weight: 400;
     src: local('Anton Regular'), local('Anton-Regular'), url(../fonts/Anton-Regular.ttf) format('truetype');
 }
-body{
-      background-color:white;
-      color: #222
-      font-family: 'Roboto Mono', monospace;
-      font-size: 14px;
-      font-weight:300;
-      text-align: center;
-      line-height: 16px;
-   }
    .container{
       width:1280px;
       margin: auto;
@@ -47,13 +38,13 @@ header img{
    left: 100px;
 }
 h1{
-   position:relative;
+   position:absolute;
    color: white;
    font-family: 'Anton', sans-serif;
    font-size:72px;
    font-weight: normal;
-   top:-35px;
-   left: -275px;
+   top:635px;
+   left: 250px;
 }
 h2{
    position:absolute;
@@ -104,6 +95,7 @@ section p:nth-of-type(3){
 }
 footer{
    padding-top: 205px;
+   text-align: center;
 }
 a {
    text-decoration: none;
