@@ -104,3 +104,25 @@ a:hover {
       top:200px;
    }
 }
+@media screen and  (max-width:779px){
+   .container{
+      width: 480px;
+   }
+   h1{
+      font-size: 90px;
+   }
+   h2{
+      font-size: 14px;
+      position: absolute;
+      left: 30px;
+   }
+   section img{
+      width: 300px;
+   }
+   nav{
+      position: absolute;
+      text-align: center;
+      left:100px;
+      top:480px;
+   }
+}

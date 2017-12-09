@@ -121,3 +121,7 @@ section p span{
       text-align: center;
       margin:auto;
    }
+   @media screen and  (max-width:779px){
+      .container{
+         width: 480px;
+      }
