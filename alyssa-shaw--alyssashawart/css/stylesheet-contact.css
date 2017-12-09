@@ -113,9 +113,22 @@ a:hover {
    }
    header{
       height: 550px;
+      margin-top: 0px;
    }
    header img{
       height: 500px;
+   }
+   nav{
+      position: absolute;
+      left:450px;
+      top:5px;
+   }
+   nav ul li{
+      padding-top: 10px;
+      font-family: 'Anton',sans-serif;
+      font-size: 14px;
+      color: #dbdbdb;
+      letter-spacing: 1px;
    }
    h1{
       position: absolute;
@@ -124,12 +137,13 @@ a:hover {
    }
    section{
       width: 600px;
-      height: 250px;
+      height: 220px;
    }
    section p{
       display: inline-block;
       width:200px;
       font-size: 12px;
+      padding-bottom: 0px;
    }
    section p:nth-of-type(1){
       position: absolute;
@@ -143,4 +157,8 @@ a:hover {
       position: absolute;
       left: 250px;
       top: 580px;
+   }
+   footer{
+      padding-top: 0px;
+      text-align: center;
    }

@@ -68,6 +68,13 @@ section p{
       height: 800px;
       margin: auto;
    }
+   header{
+         margin-top: 0px;
+         height: 200px;
+   }
+   h1{
+      font-size: 51px;
+   }
    #one img{
       width: 600px;
       height: 550px;
