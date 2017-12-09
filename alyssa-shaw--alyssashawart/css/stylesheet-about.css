@@ -23,17 +23,15 @@
     src: local('Anton Regular'), local('Anton-Regular'), url(../fonts/Anton-Regular.ttf) format('truetype');
 }
 body{
-      background-color:white;
-      color: #ffffff;
-      font-family: 'Roboto Mono', monospace;
-      font-size: 14px;
-      font-weight:300;
-      text-align: center;
-      line-height: 16px;
-      margin-top: 25px;
-   }
+   color: #222;
+   font-family: 'Roboto Mono', monospace;
+   font-size: 14px;
+   font-weight: 300;
+   text-align: center;
+   margin-top: 25px;
+}
 header{
-   height:250px;
+   height:200px;
 }
 header img{
    position: absolute;
@@ -51,6 +49,7 @@ h1{
    font-weight: normal;
 }
 section img{
+   padding-top: 50px;
    width:1260px;
    height:700px;
    object-position: 100% 50%;

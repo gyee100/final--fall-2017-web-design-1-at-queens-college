@@ -39,7 +39,7 @@ body{
 header{
    height:700px;
    background-color: #aeaeae;
-   margin-top: 0px;
+   margin-top: 25px;
 }
 header img{
    position: absolute;
@@ -70,6 +70,7 @@ nav{
    position: absolute;
    right: 0px;
    text-align: right;
+   height: 200px;
 }
 nav ul li{
    padding-top: 10px;
@@ -103,4 +104,11 @@ section p:nth-of-type(3){
 }
 footer{
    padding-top: 205px;
+}
+a {
+   text-decoration: none;
+    color: #dbdbdb;
+}
+a:hover {
+    color: #222;;
 }
