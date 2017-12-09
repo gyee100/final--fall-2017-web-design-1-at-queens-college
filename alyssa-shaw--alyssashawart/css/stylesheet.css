@@ -68,6 +68,9 @@ nav ul li{
    color: #dbdbdb;
    letter-spacing: 1px;
 }
+section img{
+   width: 500px;
+}
 footer{
    padding-top: 60px;
 }
@@ -77,4 +80,21 @@ a {
 }
 a:hover {
     color: #222;;
+}
+@media screen and  (max-width:1279px){
+   .container{
+      width:800px;
+      text-align: center;
+   }
+   h1{
+      font-size:200px;
+   }
+   section img{
+      width: 800px;
+   }
+   nav{
+      position: absolute;
+      right:100px;
+      top:200px;
+   }
 }
