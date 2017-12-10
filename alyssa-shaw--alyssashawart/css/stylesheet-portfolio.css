@@ -125,3 +125,35 @@ section p span{
       .container{
          width: 480px;
       }
+      header{
+         position: relative;
+         width: 480px;
+         text-align: center;
+      }
+      header img{
+         height: 100px;
+      }
+      h1{
+         font-size:66px;
+      }
+      nav{
+         position: absolute;
+         left:300px;
+         top:3px;
+      }
+      nav ul li{
+         padding-top: 10px;
+         font-family: 'Anton',sans-serif;
+         font-size: 14px;
+         color: #dbdbdb;
+         letter-spacing: 1px;
+      }
+      #container{
+         position: absolute;
+         top:200px;
+         left: 55px;
+         width: 350px;
+         text-align: center;
+         margin:auto;
+      }
+   }

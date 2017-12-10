@@ -85,3 +85,43 @@ section p{
       top: 120px;
       left:325px;
    }
+@media screen and  (max-width:779px){
+   .container{
+         width: 480px;
+         height: 640px;
+   }
+   header{
+      position: relative;
+      width: 480px;
+      height: 100px;
+      text-align: center;
+      }
+   header img{
+      position: absolute;
+      left:180px;
+      height: 100px;
+      }
+   h1{
+      font-size:66px;
+      }
+   nav{
+      position: absolute;
+      left:300px;
+      top:3px;
+      }
+   nav ul li{
+      padding-top: 10px;
+      font-family: 'Anton',sans-serif;
+      font-size: 14px;
+      color: #dbdbdb;
+      letter-spacing: 1px;
+      }
+   #one img{
+      width: 480px;
+      height: 550px;
+      }
+   #two{
+      position: absolute;
+      top: 120px;
+      left:100px;
+      }
