@@ -30,7 +30,7 @@
 header{
    height:700px;
    background-color: #aeaeae;
-   margin-top: 25px;
+   padding-top: 25px;
 }
 header img{
    position: absolute;
