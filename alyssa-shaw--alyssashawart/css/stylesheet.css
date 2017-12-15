@@ -74,11 +74,11 @@ section img{
 footer{
    padding-top: 60px;
 }
-a {
+nav a {
    text-decoration: none;
     color: #dbdbdb;
 }
-a:hover {
+nav a:hover {
     color: #222;;
 }
 @media screen and  (max-width:1279px){
@@ -104,7 +104,7 @@ a:hover {
       top:200px;
    }
 }
-@media screen and  (max-width:779px){
+@media screen and  (max-width:59px){
    .container{
       width: 480px;
    }

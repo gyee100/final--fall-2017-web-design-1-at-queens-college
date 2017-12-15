@@ -131,8 +131,11 @@ section p span{
          text-align: center;
       }
       header img{
+         position: absolute;
+         left:180px;
          height: 100px;
-      }
+         padding: 0px;
+         }
       h1{
          font-size:66px;
       }
