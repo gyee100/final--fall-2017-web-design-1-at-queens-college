@@ -104,15 +104,18 @@ nav a:hover {
       top:200px;
    }
 }
-@media screen and  (max-width:59px){
+@media screen and  (max-width:559px){
    .container{
-      width: 480px;
+      width: 320px;
+      height: 600px;
+      text-align: center;
    }
    h1{
-      font-size: 90px;
+      font-size: 60px;
    }
    h2{
-      font-size: 14px;
+      font-size: 9px;
+      letter-spacing: 3px;
       position: absolute;
       left: 30px;
       top:70px;

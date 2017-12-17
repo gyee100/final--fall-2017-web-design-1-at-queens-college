@@ -113,15 +113,17 @@ a:hover {
    }
    header{
       height: 550px;
-      margin-top: 0px;
+      width: 600px;
+      padding-top: 25px;
    }
    header img{
       height: 500px;
+      padding:0px;
+      margin:0px;
    }
    nav{
-      position: absolute;
-      left:450px;
-      top:5px;
+      top: 30px;
+      right: 0px;
    }
    nav ul li{
       padding-top: 10px;
@@ -152,11 +154,12 @@ a:hover {
    section p:nth-of-type(2){
       position: absolute;
       left: 250px;
+      top: 580px;
    }
    section p:nth-of-type(3){
       position: absolute;
       left: 250px;
-      top: 580px;
+      top: 600px;
    }
    footer{
       padding-top: 0px;
@@ -164,20 +167,24 @@ a:hover {
    }
    @media screen and  (max-width:559px){
       .container{
-            width: 480px;
-            height: 640px;
+         width:320px;
+         height: 600px;
+         text-align: center;
       }
       header{
-         height: 400px;
+         height: 320px;
+         width: 320px;
          margin-top: 0px;
       }
       header img{
-         height: 400px;
+         position: absolute;
+         left: 20px;
+         height: 350px;
       }
       nav{
          position: absolute;
-         left:400px;
-         top:5px;
+         right: 10px;
+         top: 15px;
       }
       nav ul li{
          padding-top: 10px;
@@ -188,31 +195,33 @@ a:hover {
       }
       h1{
          position: absolute;
-         top:340px;
-         left: 25px;
+         font-size:36px;
+         top:320px;
+         left: 10px;
       }
       section{
-         width: 480px;
+         width: 320px;
          height: 200px;
       }
       section p{
          display: inline-block;
-         width:160px;
-         font-size: 12px;
+         width:320px;
+         font-size: 10px;
          padding-bottom: 0px;
       }
       section p:nth-of-type(1){
          position: absolute;
-         left: 25px;
+         left: 10px;
       }
       section p:nth-of-type(2){
          position: absolute;
-         left: 220px;
+         left: 10px;
+         top: 430px;
       }
       section p:nth-of-type(3){
          position: absolute;
-         left: 220px;
-         top: 450px;
+         left: 10px;
+         top: 460px;
       }
       footer{
          padding-top: 0px;

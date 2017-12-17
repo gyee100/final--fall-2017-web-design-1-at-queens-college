@@ -87,7 +87,7 @@ section p span{
 }
 @media screen and  (max-width:1279px){
    .container{
-      width:600px;
+      height:600px;
       margin: auto;
    }
    header{
@@ -99,11 +99,11 @@ section p span{
       height: 150px;
    }
    h1{
-      font-size:66px;
+      font-size:51px;
    }
    nav{
       position: absolute;
-      left:450px;
+      right:0px;
       top:5px;
    }
    nav ul li{
@@ -121,28 +121,25 @@ section p span{
       text-align: center;
       margin:auto;
    }
-   @media screen and  (max-width:779px){
-      .container{
-         width: 480px;
-      }
+   @media screen and  (max-width:559px){
       header{
          position: relative;
-         width: 480px;
+         width: 320px;
          text-align: center;
       }
       header img{
          position: absolute;
-         left:180px;
+         left: 100px;
          height: 100px;
          padding: 0px;
          }
       h1{
-         font-size:66px;
+         font-size:36px;
       }
       nav{
          position: absolute;
-         left:300px;
-         top:3px;
+         right:10px;
+         top:-10px;
       }
       nav ul li{
          padding-top: 10px;
@@ -154,8 +151,8 @@ section p span{
       #container{
          position: absolute;
          top:200px;
-         left: 55px;
-         width: 350px;
+         left: 0px;
+         width: 320px;
          text-align: center;
          margin:auto;
       }
