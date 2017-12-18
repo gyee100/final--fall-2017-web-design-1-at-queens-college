@@ -1,0 +1,380 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Mono|Source+Sans+Pro');
+
+#big-bg {
+  margin:auto;
+  padding:0;
+  border:0;
+  position:fixed;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:#DADADA;
+  z-index:-9000;
+}
+
+#back-img {
+  position:relative;
+  opacity:.2;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  height:50%;
+}
+
+#back-img img {
+  height:100%;
+  width:100%;
+}
+
+#bodybag {
+  position:relative;
+  width:100%;
+}
+
+#container {
+  font-family:'Roboto Mono',monospace;
+  width:100%;
+  margin:auto;
+  border:none;
+}
+
+#head {
+  width:100%;
+  height:auto;
+  padding-top:50px;
+  font-size:14pt;
+  background-color:#000000;
+}
+
+#prof {
+  position:absolute;
+  left:0px;
+  top:0px;
+  height:50px;
+  width:50px;
+  background-color:#FFFFFF;
+}
+
+#prof img {
+  width:100%;
+  height:100%;
+}
+
+#nav {
+  text-align:center;
+  position:relative;
+  margin:auto;
+  width:auto;
+  bottom:0px;
+}
+
+#nav a {
+  margin:auto 2%;
+}
+
+#main {
+  text-align:center;
+}
+
+#main span:nth-child(1) {
+  font-size:28pt;
+  font-weight:bold;
+}
+
+#main-hme {
+  margin-top:50%;
+  transform:translateY(-50%);
+  font-size:30pt;
+  font-weight:bold;
+}
+
+#main-pic {
+  margin:30px auto;
+  width:100%
+}
+
+#main-pic img {
+  height:100%;
+  width:100%;
+}
+
+#foot {
+  bottom:0;
+  line-height:40px;
+  text-align:center;
+  background-color:#000000;
+}
+
+#foot a {
+  font-size:8pt;
+  margin:auto 25px;
+  vertical-align:middle;
+}
+
+#me {
+  text-align:center;
+}
+
+#me h1 {
+  font-size:25pt;
+  margin:20px auto;
+}
+
+#me p {
+  font-family:'Source Sans Pro',sans-serif;
+  margin:auto;
+  font-size:14pt;
+  line-height:24pt;
+  text-align:justify;
+  padding:15px;
+  max-width:520px;
+}
+
+#me div {
+  width:100%;
+}
+
+.linklist img {
+  width:40px;
+  height:40px;
+  margin:10%;
+}
+
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}
+
+.clear {
+  clear:both;
+}
+
+.artbound {
+  margin:30px auto;
+  text-align:center;
+  width:75%;
+}
+
+.bord a {
+  text-decoration:none;
+  color:#FFFFFF;
+}
+
+.bord a:hover {
+  color:#DADADA;
+}
+
+.bord a:visited {
+  color:#FFFFFF;
+}
+
+.artbound div {
+  background-color:#FFFFFF;
+  border:2px solid #000000;
+}
+
+.artbound img {
+  width:100%;
+}
+
+.artbound h2 {
+  font-family:'Source Sans Pro',sans-serif;
+  font-size:12pt;
+  font-weight:normal;
+}
+
+.vidbound {
+  margin:30px auto;
+  padding-bottom:10px;
+  text-align:center;
+  width:100%;
+  border-bottom:1px solid #000000;
+}
+
+.vidbound h1 {
+  margin:auto;
+  width:75%;
+  font-size:24pt;
+}
+
+.vidbound video {
+  width:100%;
+}
+
+.vidbound h2 {
+  margin:auto;
+  width:75%;
+  font-family:'Source Sans Pro',sans-serif;
+  font-size:12pt;
+  font-weight:normal;
+}
+
+.codeblock {
+  text-align:left;
+}
+
+.codebound {
+  margin:30px auto;
+  padding-bottom:10px;
+  max-width:480px;
+}
+
+.codebound h1 {
+  font-family:'Source Sans Pro',sans-serif;
+  text-decoration:underline;
+  margin:20px auto;
+}
+
+.codebound h2 {
+  font-size:8pt;
+  text-align:center;
+}
+
+.example {
+  width:100%;
+}
+
+.example table {
+  font-size:8pt;
+  margin:auto;
+  width:100%;
+}
+
+.example td {
+  border:.5px solid #000000;
+}
+
+.example form {
+  text-align:left;
+  margin:auto;
+  width:100%;
+}
+
+.example form textarea {
+  width:100%;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.source textarea {
+  border:1px solid #000000;
+  font-size:8pt;
+  width:100%;
+}
+
+@media (min-width:768px) {
+  #container {
+    width:768px;
+  }
+  #back-img {
+    max-width:768px;
+    max-height:768px;
+    left:50%;
+  }
+  #head {
+    padding:0px;
+    font-size:18pt;
+    left:0;
+    position:absolute;
+    width:100%;
+  }
+  #headtainer {
+    height:100px;
+  }
+  #nav a {
+    margin:20px;
+  }
+  #prof {
+    left:30%;
+    transform:TranslateX(-100%);
+    position:relative;
+  }
+  #header {
+    margin:40px;
+  }
+  #main-pic {
+    width:50%;
+    height:520px;
+  }
+  #artboard {
+    overflow:auto;
+    width:100%;
+  }
+  #me p {
+    padding:20px;
+  }
+  #me h3 {
+    margin:10px auto;
+    font-size:18pt;
+  }
+  #foot {
+    clear:both;
+    left:0;
+    position:absolute;
+    width:100%;
+  }
+  #foot a {
+    font-size:12pt;
+    margin:auto 5%;
+  }
+  .artbound {
+    width:20%;
+    float:left;
+    margin:50px 0 50px 10%;
+  }
+  .vidbound {
+    clear:both;
+  }
+  .vidbound div {
+    width:50%;
+  }
+  .vidbound h1,.vidbound h2 {
+    width:50%;
+  }
+  .vidbound h1 {
+    text-align: left;
+    margin-left: 2%;
+  }
+  .vidbound h2 {
+    right:5%;
+    margin-top:-140px;
+    text-align:left;
+    float:right;
+  }
+  .linklist img {
+    height:60px;
+    width:60px;
+  }
+}
+
+@media (min-width:1024px) {
+  #head {
+    padding:0px;
+    font-size:18pt;
+  }
+  #prof {
+    left:30%;
+  }
+  #nav a {
+    margin:30px;
+  }
+  #me p {
+    font-size:14pt;
+    line-height:22pt;
+  }
+  .example table {
+    font-size:12pt;
+  }
+  .codebound h2 {
+    font-size:12pt;
+}

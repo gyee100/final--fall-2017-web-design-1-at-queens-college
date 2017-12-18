@@ -1,0 +1,40 @@
+#shell {
+position:fixed;
+z-index:100;
+width:25%;
+left:25%;
+top:35%;
+right:25%;
+margin:auto;
+background-color:#736F6E;
+border-style:outset;
+border-color:#616161;
+}
+
+#msg-head {
+background-color:#192089;
+font-family:arial;
+font-weight:bold;
+color:#FFFFFF;
+}
+
+#errbody {
+padding-left:8px;
+}
+
+#button {
+border-style:outset;
+border-color:#878382;
+float:right;
+background-color:#828282;
+margin-right:5px;
+margin-bottom:5px;
+}
+
+@media (max-width:768px){
+  #shell {
+    left:0;
+    width:100%;
+    max-height:70%;
+  }
+}
