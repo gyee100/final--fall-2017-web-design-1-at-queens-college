@@ -1,0 +1,473 @@
+/*I apologize for the snake case in the @font-face imports. That's how the file was named and I didn't want ot mess with it. The font is one I purchased for web use a while back.*/
+
+@font-face {
+  font-family: "Rodger-Light";
+  src: url('../fonts/33F175_1_0.woff2');
+}
+
+@font-face {
+  font-family: "Rodger-Bold";
+  src: url('../fonts/33F175_3_0.woff2');
+}
+
+@media (min-width: 768px) {
+h1 {
+  font-size: 40px;
+  line-height: 39px;
+  font-family: "Rodger-Bold", sans-serif;
+  color: #0a0a0a;
+}
+}
+
+@media (max-width: 768px) {
+h1 {
+  font-size: 28px;
+  line-height: 39px;
+  font-family: "Rodger-Bold", sans-serif;
+  color: #0a0a0a;
+}
+}
+
+h1 a:hover {
+  opacity: 1;
+  color: #0a0a0a;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 19px;
+  font-family: "Rodger-Light", sans-serif;
+  color: #0a0a0a;
+}
+
+p {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: "Rodger-Light", sans-serif;
+    color: #0a0a0a;
+}
+
+a:hover {
+  opacity: 0.7;
+  transition: 300ms;
+}
+
+
+@media (min-width: 1024px) {
+#main {
+  width: 1008px;
+  height: auto;
+  margin: 0 auto 0 auto;
+  /*background-color: #ff0000;*/
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+#main {
+  width: 624px;
+  height: auto;
+  margin: 0 auto 0 auto;
+  /*background-color: #ff0000;*/
+}
+}
+
+@media (max-width: 768px) {
+#main {
+  width: 240px;
+  height: auto;
+  margin: 0 auto 0 auto;
+  /*background-color: #ff0000;*/
+}
+}
+
+@media (min-width: 1024px) {
+  #content-wrapper {
+  width: 832px;
+  height: auto;
+  position: relative;
+  left: 176px;
+  /*background-color: rgba(0, 50, 201, 0.8);*/
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  #content-wrapper {
+  width: 432px;
+  height: auto;
+  position: relative;
+  left: 192px;
+  /*background-color: rgba(0, 50, 201, 0.8);*/
+}
+}
+
+@media (max-width: 768px) {
+  #content-wrapper {
+  width: 240px;
+  height: auto;
+  position: relative;
+  left: 0;
+  /*background-color: rgba(0, 50, 201, 0.8);*/
+}
+}
+
+
+@media (min-width: 1024px) {
+.thumbnail {
+  width: 368px;
+  height: auto;
+  padding-bottom: 28px;
+  padding-left: 16px;
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+.thumbnail {
+  width: 432px;
+  height: auto;
+  padding-bottom: 28px;
+  padding-left: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+}
+
+@media (max-width: 768px) {
+.thumbnail {
+  width: 240px;
+  height: auto;
+  padding-bottom: 12px;
+  padding-left: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+}
+
+
+@media (min-width: 1024px) {
+#thumbnail-container {
+  width: 768px;
+  height: auto;
+  position: relative;
+  padding-top: 56px;
+  left: 64px;
+  column-count: 2;
+  column-gap: 0;
+  /*background-color: rgba(255, 255, 255, 0.7);*/
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+#thumbnail-container {
+  width: 432px;
+  height: auto;
+  position: relative;
+  padding-top: 56px;
+  left: 0;
+  /*background-color: rgba(255, 255, 255, 0.7);*/
+}
+}
+
+@media (max-width: 768px) {
+#thumbnail-container {
+  width: 240px;
+  height: auto;
+  position: relative;
+  padding-top: 192px;
+  left: 0;
+  /*background-color: rgba(255, 255, 255, 0.7);*/
+}
+}
+
+@media (min-width: 1024px) {
+#content-container {
+  width: 768px;
+  height: auto;
+  position: relative;
+  padding-top: 56px;
+  left: 64px;
+  /*background-color: rgba(255, 255, 0, 0.7);*/
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+#content-container {
+  width: 432px;
+  height: auto;
+  position: relative;
+  padding-top: 56px;
+  left: 0;
+  /*background-color: rgba(255, 255, 0, 0.7);*/
+}
+}
+
+@media (max-width: 768px) {
+#content-container {
+  width: 240px;
+  height: auto;
+  position: relative;
+  padding-top: 192px;
+  /*background-color: rgba(255, 255, 0, 0.7);*/
+}
+}
+
+@media (min-width: 1024px) {
+.post-image {
+  width: 512px;
+  height: auto;
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+.post-image {
+  width: 432px;
+  height: auto;
+}
+}
+
+@media (max-width: 768px) {
+.post-image {
+  width: 240px;
+  height: auto;
+}
+}
+
+
+@media (min-width: 1024px) {
+.post-text {
+  width: 240px;
+  height: auto;
+  padding-top: 140px;
+  float: right;
+  /*background-color: rgba(15, 175, 200, 0.7);*/
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+.post-text {
+  width: 432px;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  float: left;
+  /*background-color: rgba(15, 175, 200, 0.7);*/
+}
+}
+
+@media (max-width: 768px) {
+.post-text {
+  width: 240px;
+  height: auto;
+  padding-top: 24px;
+  padding-bottom: 60px;
+  float: left;
+  /*background-color: rgba(15, 175, 200, 0.7);*/
+}
+}
+
+@media (min-width: 1024px) {
+.main-post-text {
+  padding-top: 86px;
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+.main-post-text {
+  padding-top: 28px;
+}
+}
+
+@media (max-width: 768px) {
+.main-post-text {
+  padding-top: 12px;
+}
+}
+
+@media (max-width: 768px) {
+.phone-break {
+  display: none;
+}
+}
+
+
+@media (min-width: 1024px) {
+.post-image-caps {
+  width: 512px;
+  height: auto;
+  padding-bottom: 28px;
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+.post-image-caps {
+  width: 432px;
+  height: auto;
+  padding-bottom: 28px;
+}
+}
+
+@media (max-width: 768px) {
+.post-image-caps {
+  width: 240px;
+  height: auto;
+  padding-bottom: 8px;
+}
+}
+
+@media (min-width: 1024px) {
+.post-text-caps {
+  width: 240px;
+  height: auto;
+  top: 0;
+  padding-top: 196px;
+  position: absolute;
+  right: 0;
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+.post-text-caps {
+  width: 432px;
+  height: auto;
+  padding-top: 40px;
+  float: left;
+  position: static;
+  right: auto;
+  padding-bottom: 60px;
+}
+}
+
+@media (max-width: 768px) {
+.post-text-caps {
+  width: 240px;
+  height: auto;
+  padding-top: 24px;
+  padding-bottom: 60px;
+  float: left;
+  /*background-color: rgba(15, 175, 200, 0.7);*/
+}
+}
+
+@media (min-width: 1024px) {
+#about-image {
+  width: 432px;
+  height: auto;
+  margin-top: 56px;
+  margin-left: 200px;
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+#about-image {
+  width: 432px;
+  height: auto;
+  margin-top: 56px;
+  margin-left: 0;
+}
+}
+
+@media (max-width: 768px) {
+#about-image {
+  width: 240px;
+  height: auto;
+  padding-top: 192px;
+  padding-bottom: 48px;
+  margin-top: 0;
+  margin-left: 0;
+}
+}
+
+@media (min-width: 1024px) {
+#about-text {
+  width: 432px;
+  margin-left: 200px;
+  padding-top: 45px;
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+#about-text {
+  width: 432px;
+  margin-left: 0;
+  margin-top: 45px;
+}
+}
+
+@media (min-width: 1024px) {
+#contact-info {
+  width: 432px;
+  height: 19px;
+  margin-left: 200px;
+  padding-top: 16px;
+  /*background-color: rgba(255, 255, 255, 0.7);*/
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+#contact-info {
+  width: 432px;
+  height: 19px;
+  margin-left: 0px;
+  padding-top: 16px;
+  /*background-color: rgba(255, 255, 255, 0.7);*/
+}
+}
+
+@media (max-width: 768px) {
+#contact-info {
+  width: 432px;
+  height: 19px;
+  margin-left: 0px;
+  margin-top: 0px;
+  padding-top: 18px;
+  /*background-color: rgba(255, 255, 255, 0.7);*/
+}
+}
+
+#email {
+  font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+#social {
+  text-align: right;
+  width: 112px;
+  height: 19px;
+  word-spacing: 7.4px;
+  position: relative;
+  top: -19px;
+  float: right;
+  /*background-color: #ff0000;*/
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+#social {
+  text-align: right;
+  width: 112px;
+  height: 19px;
+  word-spacing: 7.4px;
+  position: relative;
+  top: 12px;
+  float: left;
+  /*background-color: #ff0000;*/
+}
+}
+
+@media (max-width: 768px) {
+#social {
+  text-align: left;
+  width: 112px;
+  height: 19px;
+  word-spacing: 7.4px;
+  position: relative;
+  padding-top: 20px;
+  float: left;
+  /*background-color: #ff0000;*/
+}
+}
+
+.social-icon {
+  width: 19px;
+  height: 19px;
+  /*background-color: ##0022ff;*/
+}
