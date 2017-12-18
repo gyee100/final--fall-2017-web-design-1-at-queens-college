@@ -1,0 +1,356 @@
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-menu {
+  padding: 15px 0 15px 0;
+  text-align: center;
+  line-height: 32px;
+  background-color: #FCA481;
+  position: fixed;
+  width: 100%;
+  top: -15px;
+  z-index: 2;
+}
+ul.main-menu {
+  margin-top: 15px;
+}
+.main-menu li {
+  display: inline;
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+}
+.main-menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  font-variant: small-caps;
+}
+
+.main-menu li:hover {
+  background-color: #399077;
+  padding: 23px 10px 23px 10px;
+}
+.responsive img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.leroy{
+  width: 632px;
+  height: 632px;
+  max-width: 100%;
+  left: 300px;
+  padding-left: 476px;
+  padding-top: 130px;
+}
+.albizu-campos{
+  width:632px;
+  height: 632px;
+  max-width: 100%;
+  left: 300px;
+  padding-left: 476px;
+  padding-top: 130px;
+}
+.devil-girl{
+  width:632px;
+  height: 632px;
+  max-width: 100%;
+  left: 300px;
+  padding-left: 476px;
+  padding-top: 130px;
+}
+.envy{
+  width:632px;
+  height: 632px;
+  max-width: 100%;
+  left: 300px;
+  padding-left: 476px;
+  padding-top: 130px;
+}
+.hulk{
+  width:632px;
+  height: 632px;
+  max-width: 100%;
+  left: 300px;
+  padding-left: 476px;
+  padding-top: 130px;
+}
+
+
+body {
+  background-color: #FFD9D0;
+  background-image: url("../img/green-dots-background.png");
+  overflow-x: hidden;
+
+}
+
+img {
+  width: 100%;
+}
+h1,h2,h3,h4,h5 {
+  font-family: 'helvetica', sans-serif;
+  font-style: normal;
+}
+
+h3 {
+  text-transform: capitalize;
+  font-size: 1.875em;
+  padding: 0 0 1% 0;
+  color: #29355D;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+
+
+.intro {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 8% 0;
+}
+
+.intro h1 {
+  font-size: 6em;
+  text-align: center;
+  color: #69FD86;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+.intro h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #69BAFD;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family:'helvetica',sans-serif;
+}
+
+.about {
+  padding: 4% 0;
+}
+
+.about p {
+  font-family: 'helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #616569;
+  letter-spacing: .03em;
+  margin: 10px auto;
+  font-size: 1.5em;
+  padding: 2% 0;
+}
+
+.about p a{
+  color: #e1ccc9;
+  border-bottom: 2px solid;
+}
+
+.work {
+  height: 300px;
+  padding: 2% 0;
+}
+
+.work h3 {
+  padding: 4% 0;
+  color: #001833;
+  text-decoration: none;
+}
+
+.text-box {
+  float:left;
+  text-align: center;
+  width: 480px;
+  background-color: #69BAFD;
+  height: 100%;
+}
+
+.text-box-content{
+  padding: 4% 8%;
+}
+
+.text-box-content p{
+  line-height: 1.8;
+  color: #616569;
+  letter-spacing: .03em;
+  font-size: 1em;
+}
+
+.button {
+  padding: 5% 3%;
+  border: 5px solid #4992B0;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  color: #29355D;
+  text-align: center;
+  display: block;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 4%;
+}
+
+.button:hover {
+  color: #fff;
+  background-color:#e0ccc8;
+}
+
+.image-area {
+  width: 480px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.contact {
+  width: 100%;
+  background-color: #011833;
+  padding: 5% 0;
+  margin-top: 5%;
+  clear: both;
+}
+
+.contact-info {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-info h4 {
+  font-size: 1.875em;
+  padding: 1% 0;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.contact-info a{
+  color: #e0ccc8;
+  text-decoration: none;
+}
+
+.image-divider {
+  padding: 15% 0;
+  background-image: url("../img/workspace.jpg");
+  background-size: cover;
+  background-position: center top;
+  z-index: 2;
+}
+
+footer {
+  background-color: #81FC8A;
+  color: #fff;
+  padding: 2% 0;
+  width: 100%;
+  clear: both;
+  height: 100px;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family:'helvetica', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 2.5;
+  color: #2B3781;
+  left: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer-content li:hover {
+  color: #F08752;
+}
+
+@media only screen and (max-width:1291px) {
+  .wrapper {
+    padding: 0 4%;
+  }
+  .work {
+    padding: 4% 0;
+  }
+  .image-area {
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+  .text-box {
+    width: 100%;
+    height: auto;
+  }
+  .footer-content {
+    padding: 3.5%;
+  }
+  .leroy {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+  }
+  .albizu-campos {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+  }
+  .devil-girl {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+  }
+  .envy {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+  }
+  .hulk {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+  }
+
+}
+
+@media only screen and (max-width:800px) {
+  .intro h1 {
+    font-size:4em;
+    line-height: 1.2;
+  }
+  .intro h2 {
+    font-size: 1em;
+    line-height: 2;
+  }
+  .about p {
+    font-size: 1em;
+    line-height: 2;
+  }
+  footer {
+    height: 130px;
+    line-height: 1.3em;
+  }
+  .footer-content {
+    padding: 4%;
+    font-size: 14px;
+  }
+  .contact-info {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
