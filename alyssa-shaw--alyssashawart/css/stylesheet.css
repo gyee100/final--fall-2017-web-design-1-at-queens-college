@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Roboto Mono'; monospace;
+    font-style: normal;
+    font-weight: 700;
+    src: local('RobotoMono Bold'), local('RobotoMono-Bold'), url('../fonts/RobotoMono-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Mono'; monospace;
+    font-style: lighter;
+    font-weight: 300;
+    src: local('RobotoMono Light'), local('RobotoMono-Light'), url('../fonts/RobotoMono-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Mono'; monospace;
+    font-style: normal;
+    font-weight: 400;
+    src: local('RobotoMono Regular'), local('RobotoMono-Regular'), url('../fonts/RobotoMono-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Anton'; sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Anton Regular'), local('Anton-Regular'), url('../fonts/Anton-Regular.ttf') format('truetype');
+}
+   body{
+      background-color:white;
+      color: #222;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 12px;
+      font-weight: normal;
+      text-align: center;
+      margin-top: 25px;
+   }
+   .container{
+      width:1280px;
+      margin: auto;
+      position: relative;
+   }
+h1{
+   position:relative;
+   opacity: .25;
+   color: #222;
+   font-family: 'Anton', sans-serif;
+   font-size:219px;
+   font-weight: normal;
+}
+h2{
+   position:absolute;
+   top:170px;
+   left:250px;
+   color: #222;
+   font-family: 'Roboto Mono', monospace;
+   font-weight: 300;
+   font-size:34px;
+   font-weight: 100;
+   letter-spacing: 6px;
+}
+nav{
+   position: absolute;
+   right: 0px;
+   text-align: right;
+   z-index: 1;
+}
+nav ul li{
+   padding-top: 10px;
+   font-family: 'Anton',sans-serif;
+   font-size: 14px;
+   color: #dbdbdb;
+   letter-spacing: 1px;
+}
+section img{
+   width: 500px;
+}
+footer{
+   padding-top: 60px;
+}
+nav a {
+   text-decoration: none;
+    color: #dbdbdb;
+}
+nav a:hover {
+    color: #222;;
+}
+@media screen and  (max-width:1279px){
+   .container{
+      width:600px;
+      text-align: center;
+   }
+   h1{
+      font-size:100px;
+   }
+   h2{
+      font-size: 17px;
+      position: absolute;
+      top:75px;
+      left:75px;
+   }
+   section img{
+      width: 500px;
+   }
+   nav{
+      position: absolute;
+      right:100px;
+      top:200px;
+   }
+}
+@media screen and  (max-width:559px){
+   .container{
+      width: 320px;
+      height: 600px;
+      text-align: center;
+   }
+   h1{
+      font-size: 60px;
+   }
+   h2{
+      font-size: 9px;
+      letter-spacing: 3px;
+      position: absolute;
+      left: 30px;
+      top:70px;
+   }
+   section img{
+      width: 300px;
+   }
+   nav{
+      position: absolute;
+      text-align: center;
+      left:100px;
+      top:480px;
+   }
+}
