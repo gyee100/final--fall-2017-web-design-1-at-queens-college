@@ -1,0 +1,22 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+  font-family: 'Raleway', sans-serif;
+  }
+ul {text-align: center;}
+nav ul li {
+  display:inline-block;
+
+}
+nav ul li a {
+   display: block;
+   padding: 0 20px;
+   line-height: 80px;
+ }
+
+ a:link {
+   text-decoration: none;
+ }
