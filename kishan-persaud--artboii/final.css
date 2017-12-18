@@ -1,0 +1,59 @@
+html{
+	width: 1920px;
+	length: 1080px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+body{
+	background-image: url(mainmenu.jpg);
+	width: 1920px;
+	length:1080px;
+	position: absolute;
+	
+	
+	
+}
+
+
+@font-face{
+	font-family: "Sukhumvit Set";
+	font-style: normal;
+	src:url(../Downloads/SukhumvitSet-Thin.ttf)
+}
+.ArtistName {
+	
+	font-family: "Sukhumvit Set";
+	font-weight: 100;
+	font-stretch: expanded;
+	font-size: 100px;
+	color: #FFFFFF;
+}
+.namecontainer {
+	text-align: center;
+	position: absolute;
+	line-height: 1px;
+	right:1240px;
+	top:140px;
+}
+
+.SubTitle {
+	font-family: "Sukhumvit Set";
+	font-size: 60px;
+	color: #FFFFFF;
+	
+}
+.nav {
+	text-align: center;
+	font-family: "Sukhumvit Set";
+	font-size: 60px;
+	color: #FFFFFF;
+	list-style-type: none;
+	position: absolute;
+	right:1490px;
+	top:290px;
+	line-height:90px ;
+}
+.links a{
+	color: white;
+}
