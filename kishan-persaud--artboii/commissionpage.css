@@ -1,0 +1,36 @@
+html{
+	height: 1080;
+	width: 1920;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+body{
+	background: url(commissionpage.jpg) no-repeat;
+  background-size: 100%;
+}
+
+@font-face{
+	font-family: "Sukhumvit Set";
+	font-style: normal;
+	src:url(../Downloads/SukhumvitSet-Thin.ttf)
+}
+nav ul li{
+	color: white;
+	font-family: "Sukhumvit Set";
+	list-style-type: none;
+	display: inline-block;
+	font-size: 25px;
+	padding: 10px;
+	
+}
+.nav{
+	position: absolute;
+	top:400px;
+	left: 70px;
+}
+.nav a {
+	color: white;
+}
+

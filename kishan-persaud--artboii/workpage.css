@@ -1,0 +1,78 @@
+html{
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+}
+
+
+
+@font-face{
+	font-family: "Sukhumvit Set";
+	font-style: normal;
+	src:url(SukhumvitSet-Thin.ttf)
+}
+
+h1 {
+	font-family: "Sukhumvit Set";
+	color: #F4F4F4;
+	position: absolute;
+	font-size: 70px;
+	font-weight: 100px;
+}
+.work{
+	left:100px;
+	bottom: 640px;
+	font-family: "Sukhumvit Set";
+}
+
+.links a{
+	color: white
+}
+
+
+.sections{
+	position: absolute;
+	bottom: 400px ;
+	
+}
+
+.ill{
+	height: 890px;
+	position: absolute;
+	margin-top: 0px;
+	padding: 0px 0px 0px 62px;
+	bottom: 270px;
+	left: 245px
+}
+.pain{
+	height: 890px;
+	
+	position: absolute;
+	padding: 0px 0px 0px 28px;
+	bottom: 270px;
+	left: 658px;
+}
+.comm{
+	height: 930px;
+	
+	position: absolute;
+	padding: 0px 0px 0px 250px;
+	bottom: 270px;
+	left: 810px;
+}
+nav ul li{
+	display: inline-block;
+	color: #FFFFFF;
+	list-style-type: none;
+	font-family: "Sukhumvit Set";
+	padding: 0px 10px;
+	position: relative;
+	top: 370px;
+	left: 0px;
+	font-size: 25px;
+	
+}
+

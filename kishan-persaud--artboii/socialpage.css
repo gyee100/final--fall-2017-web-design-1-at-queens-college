@@ -1,0 +1,72 @@
+html{
+	height: 1080;
+	width: 1920;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+body{
+	background: url(socialbackground.jpg) no-repeat;
+  background-size: 100%;
+}
+@font-face{
+	font-family: "Sukhumvit Set";
+	font-style: normal;
+	src:url(../Downloads/SukhumvitSet-Thin.ttf)
+}
+h1{
+	font-family: "Sukhumvit Set";
+	color: white;
+	font-weight: 100;
+	font-size: 75px;
+}
+.social{
+	position: relative;
+	top: 270px;
+	left: 170px 
+}
+nav ul li{
+	display: inline-block;
+	position: relative;
+	align-content: center;
+}
+.insta{
+	height: 90px;
+	position: relative;
+	top: 220px;
+	left: 40px;
+}
+.faceb{
+	position: relative;
+	height:125px;
+	left: 300px;
+	top:12px;
+  
+}
+.twitta{
+	height: 90px;
+	position: relative;
+	left: 175px;
+	top: 125px;
+}
+nav ul li{
+	display: inline-block;
+	color: #FFFFFF;
+	list-style-type: none;
+	font-family: "Sukhumvit Set";
+	padding: 0px 10px;
+	position: relative;
+	bottom: 520px;
+	left: 0px;
+	font-size: 25px;
+}
+.nav {
+	position: relative;
+	top: 530px;
+	left: 96px;
+}
+.nav a {
+	color: white;
+}
+

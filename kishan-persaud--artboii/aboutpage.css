@@ -1,0 +1,70 @@
+html{
+	width: 1920px;
+	length: 1080px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+body{
+	background-image: url(aboutmenu.jpg);
+	width: 1920px;
+	length:1080px;
+	position: absolute;
+	
+	
+	
+}
+@font-face{
+	font-family: "Sukhumvit Set";
+	font-style: normal;
+	src:url(../Downloads/SukhumvitSet-Thin.ttf)
+}
+
+h1{
+	color: #FFFFFF;
+	font-family: "Sukhumvit Set";
+	font-weight: 100;
+
+}
+.abouttitle{
+	position: absolute;
+	left: 160px;
+	top: 110px;
+	font-size: 65px;
+}
+p{
+	color: #FFFFFF;
+	font-family: "Sukhumvit Set";
+	line-height: 1.2
+	;
+	text-align:center;
+	
+}
+.aboutinfo
+{
+	position: absolute;
+	left: 80px;
+	top: 250px
+}
+nav ul li{
+	display: inline-block;
+	color: #FFFFFF;
+	list-style-type: none;
+	font-family: "Sukhumvit Set";
+	padding: 5px 20px;
+	position: relative;
+	top: 560px;
+	left: 57px;
+	font-size: 25px;
+	font-weight: 100px;
+	
+}
+.nav a{
+	color: white}
+.nav a:hover{
+	text-decoration: underline
+}
+
+
+
+	
