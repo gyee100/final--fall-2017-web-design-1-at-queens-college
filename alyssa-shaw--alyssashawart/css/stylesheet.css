@@ -2,25 +2,25 @@
     font-family: 'Roboto Mono'; monospace;
     font-style: normal;
     font-weight: 700;
-    src: local('RobotoMono Bold'), local('RobotoMono-Bold'), url(../fonts/RobotoMono-Bold.ttf) format('truetype');
+    src: local('RobotoMono Bold'), local('RobotoMono-Bold'), url('../fonts/RobotoMono-Bold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Roboto Mono'; monospace;
     font-style: lighter;
     font-weight: 300;
-    src: local('RobotoMono Light'), local('RobotoMono-Light'), url(../fonts/RobotoMono-Light.ttf) format('truetype');
+    src: local('RobotoMono Light'), local('RobotoMono-Light'), url('../fonts/RobotoMono-Light.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Roboto Mono'; monospace;
     font-style: normal;
     font-weight: 400;
-    src: local('RobotoMono Regular'), local('RobotoMono-Regular'), url(../fonts/RobotoMono-Regular.ttf) format('truetype');
+    src: local('RobotoMono Regular'), local('RobotoMono-Regular'), url('../fonts/RobotoMono-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Anton'; sans-serif;
     font-style: normal;
     font-weight: 400;
-    src: local('Anton Regular'), local('Anton-Regular'), url(../fonts/Anton-Regular.ttf) format('truetype');
+    src: local('Anton Regular'), local('Anton-Regular'), url('../fonts/Anton-Regular.ttf') format('truetype');
 }
    body{
       background-color:white;
