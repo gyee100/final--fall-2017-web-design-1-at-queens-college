@@ -99,6 +99,19 @@ input[type=submit] {
   letter-spacing: 3px;
 }
 
+
+.fa {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
 @media (max-width: 500px) {
   .logo {
     width: 300px;

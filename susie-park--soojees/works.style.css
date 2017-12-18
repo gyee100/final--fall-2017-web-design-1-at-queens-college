@@ -59,7 +59,7 @@ ul li {
 }
 
 .works-container {
-  width: 80%;
+  width: 70%;
   display: block;
   margin: 0 auto;
 }
@@ -86,8 +86,8 @@ ul li {
 }
 
 .flex-item {
-  width: 250px; /* box scale width */
-  height: 200px; /* box scale height */
+  width: 200px; /* box scale width */
+  height: 150px; /* box scale height */
   padding: 5px;
   margin-top: 20px;
   /*background-color: white;*/
