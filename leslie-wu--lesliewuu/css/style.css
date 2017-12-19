@@ -1,0 +1,273 @@
+body {
+	font-family: 'Poppins', Sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #FFFFFF;
+}
+
+.container2 {
+	margin: auto;
+	overflow: hidden;
+}
+
+
+a {
+  color: #000;
+}
+
+.header {
+  background-color: transparent;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #555c7f;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  padding: 20px 30px;
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  background-color: #FFFFFF;
+}
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: #555c7f;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+#hero{
+	min-height: 400px;
+	background: url(../img/076a4631.jpg) no-repeat 0;
+    background-position: center;
+    background-color: #e4e4e4;
+	text-align: center;
+}
+
+#hero img{
+	width: 100%;
+	height: auto;
+}
+
+#hero h1{
+	padding: 1px;
+}
+
+.title1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.title {
+	text-align: center;
+	padding-top: 100px;
+	text-decoration: underline;
+}
+
+
+.box h3{
+	font-weight: bold;
+}
+
+section #boxes{
+	text-align: center;
+}
+
+#boxes{
+	margin-top: 10px;
+	text-align: center;
+}
+
+#boxes .box{
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+
+#boxes .box2{
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #555c7f;
+	text-align: right;
+	color: #FFFFFF;
+}
+
+.container h1{
+	text-align: center;
+	font-weight: bold;
+}
+
+#fillout{
+	text-align: center;
+}
+
+
+#fillout form{
+	padding: 10px;
+}
+
+.name input{
+	margin: 10px;
+	padding: 10px;
+	height: 25px;
+	width: 60%;
+	color: #FFFFFF;
+	background-color: #555c7f;
+}
+
+.email input{
+	margin: 10px;
+	padding: 10px;
+	height: 25px;
+	width: 60%;
+	color: #FFFFFF;
+	background-color: #555c7f;
+
+}
+
+.message input{
+	margin: 10px;
+	padding: 10px;
+	height: 200px;
+	width: 60%;
+	color: #FFFFFF;
+	background-color: #555c7f;
+}
+
+input::placeholder{
+	color: #FFFFFF;
+}
+
+.myself img{
+	width: 40%;
+}
+
+#picture{
+	text-align: center;
+
+}
+
+#picture p{
+	padding: 50px;
+	text-align: center;
+}
+
+.project img{
+	width: 50%;
+}
+
+section a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
