@@ -1,0 +1,348 @@
+body {background-color:black;
+		}
+
+
+
+#Graphicpage
+		{position:relative;
+		text-align:center;
+		margin-top:100px;
+		margin-bottom:0px;
+		padding:0px;
+		font-family:Arial;
+		color:white;
+		font-size:70px;
+		top:-300px;
+		left:-60px;
+		z-index:20;
+
+		 }
+
+#Contactme
+		{position:relative;
+		margin-top:100px;
+		margin-bottom:0px;
+		padding:0px;
+		font-family:Arial;
+		color:white;
+		font-size:70px;
+		font-weight:bold;
+		top:180px;
+		left:200px;
+		z-index:20;
+
+		 }
+
+
+
+#book	{position:relative;
+		top:-2300px;
+		left:1000px;
+
+		}
+
+
+
+#logo2
+
+		{border-color:black;
+			position:relative;
+			top:-40px;
+			margin-top:100px;
+			margin-bottom:0px;
+			padding:0px;
+			border:10px;
+
+
+			}
+
+#logo3
+
+		{border-color:black;
+			position:relative;
+			top:-110px;
+			left:605px;
+			margin-top:100px;
+			margin-bottom:0px;
+			padding:0px;
+			border:10px;
+
+
+			}
+
+
+#Graphic
+		{
+		position:relative;
+		font-family:Arial;
+		top:200px;
+		left:260px;
+		font-size:30px;
+		color:white;
+		z-index:20;
+
+
+		}
+
+#Home1
+		{
+		position:relative;
+		font-family:Arial;
+		top:-4240px;
+		left:60px;
+		font-size:40px;
+		color:white;
+		z-index:20;
+
+
+
+		}
+
+
+
+#CM		{position:relative;
+		font-family:Arial;
+		top:300px;
+		left:260px;
+		font-size:30px;
+		color:white;
+		z-index:20;
+
+
+		}
+#Photo2  {position:relative;
+		font-family:Arial;
+		top:-180px;
+		left:260px;
+		font-size:30px;
+		color:white;
+		z-index:20;
+
+		}
+
+#typeword
+			{max-width: 100%;
+			position:relative;
+			top:-200px;
+			left:400px;
+
+
+
+			}
+
+#CM2	{position:relative;
+		font-family:Arial;
+		top:-4180px;
+		left:60px;
+		font-size:40px;
+		color:white;
+		z-index:20;
+
+		}
+
+a:link {color:white;
+		text-decoration:none;
+		}
+a:visited {color:white;
+		   text-decoration:none;
+		   }
+a:hover	{color:blue;
+		text-decoration:underline;
+
+		}
+
+#paragraph {position:relative;
+			font-family:Arial;
+			top:90px;
+			left:1100px;
+			color:white;
+			font-size:15px;
+			z-index:30;
+			}
+
+#topGreg {position:relative;
+		text-align:center;
+		margin-top:100px;
+		margin-bottom:0px;
+		padding:0px;
+		font-family:Arial;
+		color:white;
+		font-size:70px;
+		top:-280px;
+		z-index:20;
+		}
+
+#mainpicture
+			{position:relative;
+			margin:0px;
+			top:-700px;
+			left:260px;
+			overflow-x:hidden;
+			}
+
+.centerimage {border-color:black;
+			position:relative;
+			text-align:center;
+			margin-top:100px;
+			margin-bottom:0px;
+			padding:0px;
+			border:10px;
+			border-color:black;
+
+			}
+
+#footerbox.square {
+		background-color:white;
+		position:relative;
+		z-index:10;
+		width:1350px;
+		height:5px;
+		margin-top:0px;
+		margin-bottom:0px;
+		border:0px;
+		padding:0px;
+		left:230px;
+		top:-350px;
+		}
+
+
+#footerbox1.square {
+		background-color:white;
+		color:white;
+		position:relative;
+		z-index:10;
+		width:1350px;
+		height:5px;
+		margin-top:0px;
+		margin-bottom:0px;
+		border:0px;
+		padding:0px;
+		left:230px;
+		top:-2200px;
+			}
+
+
+#footer1 {position:relative;
+		font-family:Times New Roman;
+		color:white;
+		left:260px;
+		top:-320px;
+		}
+
+#footer2 {position:relative;
+		font-family:Times New Roman;
+		color:white;
+		left:1100px;
+		top:-360px;
+		}
+
+
+#footer3 {position:relative;
+		font-family:Times New Roman;
+		color:white;
+		left:360px;
+		top:-2200px;
+		}
+
+#footer4 {position:relative;
+		font-family:Times New Roman;
+		color:white;
+		left:1300px;
+		top:-2200px;
+		}
+
+
+#titlehome   {color:white;
+			position:relative;
+			font-size:80px;
+			text-align:center;
+			font-family:Arial;
+			top:-150px;
+
+			}
+#home_front {color:white;
+			position:relative;
+			font-size:50px;
+			text-align:center;
+			font-family:Arial;
+			border-color:white;
+			top:-160px;
+			}
+#Media  {position:absolute;
+		font-family:Arial;
+		top:600px;
+		left:800px;
+		color:white;
+		font-size:40px;
+		font-style:normal;
+		margin-bottom:0px;
+		margin-top:0px;
+		font-weight:normal;
+		}
+#Social {position:absolute;
+		font-family:Arial;
+		padding:0px;
+		top:400px;
+		left:790px;
+		color:white;
+		font-size:50px;
+		font-weight:lighter;
+		}
+
+#contactbar
+		{position:relative;
+		font-family:Arial;
+		top:200px;
+		left:200px;
+		font-size:20px;
+		}
+
+#footerbox3
+		{background-color:white;
+		color:white;
+		position:relative;
+		z-index:10;
+		width:1350px;
+		height:5px;
+		margin-top:0px;
+		margin-bottom:0px;
+		border:0px;
+		padding:0px;
+		left:200px;
+		top:350px;
+		}
+
+#footer5 {position:relative;
+		font-family:Times New Roman;
+		color:white;
+		left:220px;
+		top:380px;
+
+		}
+
+#footer6 {position:relative;
+		font-family:Times New Roman;
+		color:white;
+		left:1000px;
+		top:350px;
+
+
+		 }
+
+
+/* 	MEDIA QUERIES */
+
+/*Tablet Screen*/
+
+
+@media screen and (max-width:800px){
+typeword
+	{width:50%;
+	float:left;}
+
+	book
+	{width:50%;
+	float:left;}
+
+
+}
